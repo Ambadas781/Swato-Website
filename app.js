@@ -5,7 +5,7 @@ const app = express();
 var url = require("url");
 var http = require("http");
 app.set("view engine", "ejs");
-app.use(express.static("./A"));
+app.use(express.static("./docs"));
 app.use(bodyParser.urlencoded({
   extended: true
 }));
